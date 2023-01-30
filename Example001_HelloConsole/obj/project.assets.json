@@ -8,26 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Raffity\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Другие компьютеры\\VIK_\\work\\geekbrains\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
+      "projectUniqueName": "D:\\docs\\work\\geekbrains\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
       "projectName": "Example001_HelloConsole",
-      "projectPath": "G:\\Другие компьютеры\\VIK_\\work\\geekbrains\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "G:\\Другие компьютеры\\VIK_\\work\\geekbrains\\Examples\\Example001_HelloConsole\\obj\\",
+      "projectPath": "D:\\docs\\work\\geekbrains\\Examples\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
+      "packagesPath": "C:\\Users\\Raffity\\.nuget\\packages\\",
+      "outputPath": "D:\\docs\\work\\geekbrains\\Examples\\Example001_HelloConsole\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Raffity\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
-      "sources": {
-        "https://api.nuget.org/v3/index.json": {}
-      },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
