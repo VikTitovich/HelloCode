@@ -12,7 +12,5 @@ while (number >= 100)
     number /=100;
 }
 
-int j = number; //Первая цифра числа
-
-Console.WriteLine(j*10+i);
+Console.WriteLine(number*10+i);
 
