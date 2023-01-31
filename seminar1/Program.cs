@@ -1,25 +1,26 @@
 ﻿Random rnd = new Random();
 
-int number = rnd.Next(10,99);
+int number = rnd.Next(10,99+1);// min, max + 1
 
 Console.WriteLine(number);
 
 int i = number % 10; //Последняя цифра числа
 
-while (number >= 10)
-{
-    number /=10;
-}
+//Цикл подойдёт если число трехзначное и т.д.
+//while (number >= 10)
+//{
+   // number /=10;
+//}
 
-int j = number; //Первая цифра числа
+int j = number / 10;  //Первая цифра числа
 
 if (i > j) 
 {
-Console.WriteLine(i);
+Console.WriteLine($"В числе {number} самая большая цифра {i}.");
 }
 else
 {
-Console.WriteLine(j);
+Console.WriteLine($"В числе {number} самая большая цифра {j}.");
 }
 
 
