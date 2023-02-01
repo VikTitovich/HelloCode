@@ -37,14 +37,14 @@ isnumber = isnumber && int.TryParse(Console.ReadLine(), out number1);//пров�
 if (isnumber)
 {
 
-                if ((Math.Abs(number) == Math.Sqrt(number1)) || (Math.Abs(number1) == Math.Sqrt(number))) // Math.Abs - модуль числа, Math.Sqrt 
-                {                                                                                         // использовать лучше с модулем
-                Console.WriteLine("Да");                                                                  // иначе лучше Math.Pow
-                }
-                else 
-                Console.WriteLine("Нет "); 
+    if ((Math.Abs(number) == Math.Sqrt(number1)) || (Math.Abs(number1) == Math.Sqrt(number))) // Math.Abs - модуль числа, Math.Sqrt 
+    {                                                                                         // использовать лучше с модулем
+        Console.WriteLine("Да");                                                                  // иначе лучше Math.Pow
+    }
+    else
+        Console.WriteLine("Нет ");
 }
 else
 {
     Console.WriteLine("Вы ввели не число.");
-}               
+}
