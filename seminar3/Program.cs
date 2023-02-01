@@ -7,15 +7,15 @@
 
 Console.WriteLine("Введите первое число: ");
 
-    int.TryParse(Console.ReadLine(), out int number);
+int.TryParse(Console.ReadLine(), out int number);
 
-        Console.WriteLine("Введите второе число: ");
+Console.WriteLine("Введите второе число: ");
 
-            int.TryParse(Console.ReadLine(), out int number1);
+int.TryParse(Console.ReadLine(), out int number1);
 
-                if (number % number1 == 0)
-                {
-                Console.WriteLine("Кратно");
-                }
-                else 
-                Console.WriteLine($"Некратно, остаток равен {number % number1}");
+if (number % number1 == 0)
+{
+    Console.WriteLine("Кратно");
+}
+else
+    Console.WriteLine($"Некратно, остаток равен {number % number1}");
